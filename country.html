@@ -1,27 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Country</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style/country.css">
 </head>
+
 <body>
 
   <header class="header">
     <div class="header-site container ">
-      <h3 class="header-text">Where in the world?</h3>
+      <a class="header-link" href="index.html ">
+        <h3 class="header-text">Where in the world?</h3>
+      </a>
       <button class="header-button" type="button">Dark Mode</button>
     </div>
   </header>
-  
-  <main class="container">
-    <div>
-    <span class="header-back"><input type="text" placeholder="Back"></span>
+
+  <main class="main-site ">
+    <div class="container">
+      <a class="back" href="index.html">
+        <button type="button" class="header-back">
+          <span class="header-span">Back</span>
+        </button>
+      </a>
+      <footer class="footer">
+        <img class="footer-flag" src="img/germany-flag-2.png" alt="">
+        <div>
+          <h3 class="footer-country">Belgium</h3>
+
+          <div class="footer-item">
+            <div class="footer-div">
+              <p class="country-information">
+                <span class="footer-span">Native Name:</span> België<br>
+                <span class="footer-span">Population:</span> 11,319,511<br>
+                <span class="footer-span">Region: </span>Europe<br>
+                <span class="footer-span">Sub Region:</span> Western Europe<br>
+                <span class="footer-span">Capital:</span> Brussels <br>
+              </p>
+            </div>
+            <div class="footer-div">
+              <p class="country-information">
+                <span class="footer-span">Top Level Domain:</span> .be <br>
+                <span class="footer-span">Currencies:</span> Euro <br>
+                <span class="footer-span">Languages:</span> Dutch, French, German <br>
+              </p>
+            </div>
+          </div>
+          <div class="footer-list">
+            <h3 class="footer-text">Border Countries: </h3>
+            <div>
+              <button class="footer-countries-name">France</button>
+              <button class="footer-countries-name">Germany</button>
+              <button class="footer-countries-name">Netherlands</button>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   </main>
 
 
   <script src="country.js"></script>
 </body>
+
 </html>
