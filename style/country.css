@@ -121,16 +121,10 @@ body {
   text-decoration: none;
 }
 
-.header-span::before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  background-image: url(../img/call-made.svg);
-}
 
 .header-span {
   display: flex;
+  align-items: center;
   border-radius: 6px;
   color: var(--text-color);
   font-family: Nunito Sans;
@@ -143,8 +137,9 @@ body {
   padding-bottom: 10px;
   padding-right: 39px;
   padding-left: 32px;
-
-
+}
+.header-svg{
+margin-right: 10px;
 }
 
 .footer {
@@ -234,6 +229,6 @@ body {
   border-radius: 2px;
   color: var(--text-color);
   border: 0px solid #979797;
-  background: var(--bg-color);
+  background: var(--header-bg-color);
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.10);
 }
