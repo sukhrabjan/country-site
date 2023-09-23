@@ -3,12 +3,14 @@
   --search-color: #848484;
   --bg-color: #fafafa;
   --header-bg-color: #fff;
+
 }
 
 .dark-mode {
   --bg-color: #202C36;
   --text-color: #fff;
   --header-bg-color: #2B3844;
+  --search-color:#fff;
 }
 
 html {
@@ -71,7 +73,6 @@ body {
   font-weight: 800;
   line-height: normal;
 }
-
 .header-button {
   cursor: pointer;
   display: flex;
@@ -145,7 +146,7 @@ color: var(--text-color);
 
 .header-input {
   border: 0;
-  color: var(--text-color);
+  color: var(--search-color);
   font-family: Nunito Sans;
   font-size: 14px;
   font-style: normal;
