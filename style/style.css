@@ -60,6 +60,15 @@ body {
   /* Internet Explorer  10-11 */
   color: var(--search-color);
 }
+::-ms-input-placeholder{
+  /* Microsoft Edge */
+  color: var(--search-color);
+}
+::placeholder{
+  /* Most Modern browsers support this now */
+  color: var(--search-color);
+}
+
 
 .container {
   width: 100%;
